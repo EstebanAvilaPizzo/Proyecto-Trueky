@@ -1,0 +1,129 @@
+/* ----------------------------------------- */
+/* imagenes de cada sección en el navbar */
+.bodyHeader {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background: url(https://media.istockphoto.com/photos/close-up-of-colorful-tshirts-on-hangers-apparel-background-picture-id1170635789?k=20&m=1170635789&s=612x612&w=0&h=EctuMoOCIdOYdakpAyxIG15lNciq88kirum5jmT3Ecc=) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.bodyHeaderCalzados {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background: url(https://media.istockphoto.com/photos/shoes-picture-id475725850?k=20&m=475725850&s=612x612&w=0&h=KxB3et8D6QhfrliNTra_C3kpm7Ug7CgFSei6Q5eubCA=) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.bodyHeaderArticulos {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background: url(https://media.istockphoto.com/photos/black-couple-moving-sofa-in-living-room-replacing-furniture-at-home-picture-id1222192160?k=20&m=1222192160&s=612x612&w=0&h=F8j1uQJHwiF0HySMOFLlva_pqxTjBi0Q2XqyodiFQYA=) no-repeat 50% 50%;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.bodyHeaderPrendas {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background: url(https://media.istockphoto.com/photos/colorful-display-of-sweaters-on-shelf-in-store-picture-id459074159?k=20&m=459074159&s=612x612&w=0&h=HH84thR68xiNQ-yQiVcDDhZx4RUwLd-BiDMUuNn0-Es=) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+/* ----------------------------------------- */
+/* navbar */
+.nav {
+    height: 80px;
+}
+
+ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+li {
+    margin-top: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(146, 136, 136);
+    font-family: 'quicksand', 'cursive';
+    font-weight: lighter;
+    font-size: 20px;
+    transition: 1s;
+    padding: 25px;
+}
+
+li a:hover {
+    transition: 1s;
+    background: rgba(15, 9, 9, 0.7);
+    color: rgb(238, 241, 239);
+}
+
+/* ----------------------------------------- */
+/* imagenes de cada sección en el navbar para hacerlo responsive*/
+@media all and (min-width:320px) and (max-width:767px) {
+    .bodyHeader {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 250px;
+        background: url(https://media.istockphoto.com/photos/close-up-of-colorful-tshirts-on-hangers-apparel-background-picture-id1170635789?k=20&m=1170635789&s=612x612&w=0&h=EctuMoOCIdOYdakpAyxIG15lNciq88kirum5jmT3Ecc=) no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+    .bodyHeaderCalzados {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 250px;
+        background: url(https://media.istockphoto.com/photos/shoes-picture-id475725850?k=20&m=475725850&s=612x612&w=0&h=KxB3et8D6QhfrliNTra_C3kpm7Ug7CgFSei6Q5eubCA=) no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+    .bodyHeaderArticulos {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 250px;
+        background: url(https://media.istockphoto.com/photos/couple-lifting-sofa-in-living-room-picture-id1145766995?k=20&m=1145766995&s=612x612&w=0&h=1sk2MLp0Cu4_VgUz1w83OUX8ZuR-2blhv2_UKBxMhpc=) no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+    .bodyHeaderPrendas {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 250px;
+        background: url(https://media.istockphoto.com/photos/colorful-display-of-sweaters-on-shelf-in-store-picture-id459074159?k=20&m=459074159&s=612x612&w=0&h=HH84thR68xiNQ-yQiVcDDhZx4RUwLd-BiDMUuNn0-Es=) no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+    li a:hover {
+        transition: 1s;
+        background: rgba(218, 216, 216, 0.7);
+        color: rgb(4, 20, 8);
+    }
+}
+
+/* ----------------------------------------- */
+/* footer - reutiliza codigos del navbar para las etiquetas <li> y <a> */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 4%;
+}
+
+ .a-footer:hover{
+        transition: 1s;
+        background: rgba(240, 235, 235, 0.7);
+        color: rgb(1, 10, 4);
+ }
